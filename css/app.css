@@ -1,0 +1,176 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Merriweather, serif;
+  font-size: 20px;
+  margin: 20px 0 0;
+  padding: 0;
+  color: #666
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+::-moz-selection {
+  color: #FFF;
+  background: #444;
+}
+
+::selection {
+  color: #FFF;
+  background: #444;
+}
+
+h4 {
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  color: #f60;
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: 50px;
+}
+
+p {
+  line-height:160%
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.header-divider {
+  background-color: #00f1ff;
+  height: 4px;
+  margin-top: 40px;
+  position: relative;
+  width: 200px;
+}
+
+.intro-copy {
+  padding-top: 20px;
+}
+
+.chart {
+  padding-top: 20px;
+  background-color: #000;
+  font-family: 'Roboto Condensed', sans-serif;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 20px 0 20px 0;
+}
+
+
+/*
+////////////////////////////////
+///// C3.JS CUSTOMIZATIONS /////
+////////////////////////////////
+*/
+
+.c3 path,
+.c3 line {
+  stroke: #666;
+}
+
+.c3 text {
+  fill: #666;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 12px;
+}
+
+.c3 tspan,
+.c3 .c3-axis-y-label {
+  text-transform: uppercase;
+}
+
+.c3 .c3-axis-x tspan {
+  baseline-shift: -6px;
+}
+
+.c3 .c3-axis-y tspan {}
+
+.c3 .c3-legend-item {
+  transform: translate(0, -50px);
+}
+
+
+/* tooltip stuff */
+
+.c3-tooltip-container table {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.c3-tooltip {
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  opacity: .9;
+}
+
+.c3-tooltip tr {
+  border: 0px;
+}
+
+.c3-tooltip th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  background-color: rgba(0, 0, 0, .95);
+  text-transform: uppercase;
+  color: #888;
+}
+
+.c3-tooltip tr td {
+  background-color: rgba(0, 0, 0, .75);
+  color: #FFF;
+  border: 0;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-bottom: 0px;
+  padding-top: 10px;
+}
+
+.c3-tooltip tr:last-child td {
+  padding-bottom: 14px;
+}
+
+/*
+/////////////// MEDIA QUERIES //
+*/
+
+/* Extra small devices (phones, up to 480px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  
+  
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  
+
+}
